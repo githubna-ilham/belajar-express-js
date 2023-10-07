@@ -17,7 +17,7 @@
 
     app.listen(port,() => console.log(`Server running on port ${port}`))
 
-5. Bila tidak ingin mengetik node index.js, 
+5. Bila tidak ingin mengetik node index.js pada terminal, 
     maka buka file package.json dan ubah bagian script seperti ini  
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
