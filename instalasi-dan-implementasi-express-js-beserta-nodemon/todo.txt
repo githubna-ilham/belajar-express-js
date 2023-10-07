@@ -36,3 +36,5 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "nodemon index.js"
     },
+
+9. ketikan kembali npm run dev
