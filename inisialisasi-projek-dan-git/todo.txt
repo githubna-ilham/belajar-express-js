@@ -1,0 +1,4 @@
+1. Buat Folder "BOOK-STORE-API"
+2. npm init / init -y
+3. git init
+
