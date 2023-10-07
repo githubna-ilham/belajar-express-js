@@ -23,3 +23,16 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "node index.js"
     },
+
+6. Ketikan npn run dev diterminal
+
+7. Ketika ada perubahan, server harus dimatikan dan dinyalakan kembali. oleh karena itu
+    kita butuh package baru yaitu nodemon agar bisa realtime melakukan refresh server
+
+    ketikan node install nodemon -D
+
+8. Ubah script yang ada pada package.json
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon index.js"
+    },
