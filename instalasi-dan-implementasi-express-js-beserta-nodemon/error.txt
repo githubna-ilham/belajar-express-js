@@ -1,0 +1,9 @@
+kalau touch tidak bisa digunakan, install dulu
+    npm install touch-cli -g
+
+kalau error lagi seperti ini
+    touch : File C:\Users\wdgus\AppData\Roaming\npm\touch.ps1 cannot be loaded because running scripts is 
+disabled on this system.
+
+Buka powershell by admin kemudian eksekusi
+    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned

@@ -4,3 +4,22 @@
 2. touch index.js
 3. install express.js  
     npm i express
+
+4. Coding di index.js
+    const express = require('express')
+
+    const app = express()
+    const port = 3333
+
+    app.get('/',(req,res) =>{
+        res.send("Hello ini express")
+    })
+
+    app.listen(port,() => console.log(`Server running on port ${port}`))
+
+5. Bila tidak ingin mengetik node index.js, 
+    maka buka file package.json dan ubah bagian script seperti ini  
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "node index.js"
+    },
