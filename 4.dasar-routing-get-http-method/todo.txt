@@ -1,0 +1,22 @@
+1. Mengenalkan macam macam method yang bisa dikirimkan oleh klien
+    -. POST
+    -. get
+    -. put
+    -. delete
+
+2. Buat endpoint baru pada index.js dan mengenalkan juga apa itu req dan res
+    app.get("/users", (req, res) => {
+        res.send("Ini tampilan user");
+    });
+
+3. coba jalankan kembali server nya, dan lihat hasilnya
+
+4. pengenalan aplikasi postman
+5. Download aplikasi postman dan install
+6. percobaan akses endpoint dengan postman
+
+7. Buat endpoint yang bisa penangkap parameter dinamis pada index.js dan mengenalkan juga apa itu req dan res
+    app.get("/users/:id", (req, res) => {
+        res.send("Ini tampilan user");
+    });
+
