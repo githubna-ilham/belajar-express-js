@@ -20,3 +20,5 @@
         res.send("Ini tampilan user");
     });
 
+8. percobaan akses endpoint dengan postman
+
