@@ -1,0 +1,24 @@
+Belajar Express JS
+
+Persyaratan Pemahaman
+1. Paham Dasar HTML
+2. Paham Dasar Javascript
+3. Paham Dasar Git
+4. Paham Dasar Database
+
+Persyaratan Tools
+1. Sudah menginstall NodeJS
+2. Sudah menginstall VSCode
+3. Sudah menginstall Git
+4. Sudah menginstall Database Mysql
+
+Apa yang akan dipelajari
+1. Pengenalan Express JS
+2. Basic Routing di express JS
+3. Implementasi CRUD
+4. dll
+
+Goals
+1. Menambah Pengetahuan
+2. Mampu untuk mengimplementasikan CRUD pada database dengan menggunakan Express JS
+3. Mampu untuk membuat REST API menggunakan Express JS
