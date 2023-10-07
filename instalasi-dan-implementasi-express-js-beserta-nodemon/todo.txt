@@ -1,0 +1,6 @@
+1. Menambahkan .gitignore 
+    node_modules
+    
+2. touch index.js
+3. install express.js  
+    npm i express
