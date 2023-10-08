@@ -1,0 +1,22 @@
+1. Buat contoh data format array object
+    // representasi data dari database
+    const data_users = [
+        { id: 1, name: "Ilham Anugrah", alamat: "Sukabumi" },
+        { id: 2, name: "Ghina Khairunnisa", alamat: "Bandung" },
+        { id: 3, name: "Hana Syifa", alamat: "Jakarta" },
+        { id: 4, name: "Daehan Ibrahim", alamat: "Bandung" },
+    ];
+
+2. Buat endpoin untuk mendapatkan data dari database
+    app.get("/users", (req, res) => {
+        //mendapatkan data dari database
+        const data = data_users;
+
+        //memberikan respon json data
+        let result = {
+            status: 200,
+            data: data,
+        };
+
+        res.json(result);
+    });
