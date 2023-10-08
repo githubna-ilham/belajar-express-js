@@ -1,0 +1,16 @@
+1. Pengenalan respon API menggunakan JSON bukan text HTML
+2. Apa Itu JSON
+3. Format default JSON
+    {
+        status  :
+        message :
+        data    :{
+            id:
+        }
+    }
+4. coding pada bagian index.js
+    app.get("/", (req, res) => {
+        res.json({
+            message: "Hallo ini response json",
+        });
+    });

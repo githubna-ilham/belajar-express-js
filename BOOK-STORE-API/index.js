@@ -4,7 +4,9 @@ const app = express();
 const port = 3333;
 
 app.get("/", (req, res) => {
-  res.send("Hello ini express lewat nodemon test");
+  res.json({
+    message: "Hallo ini response json",
+  });
 });
 
 app.get("/users", (req, res) => {
